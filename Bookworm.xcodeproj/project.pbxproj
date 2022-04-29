@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E07DA3B281BA39D0097240E /* ReadingListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E07DA39281BA39D0097240E /* ReadingListCollectionViewCell.swift */; };
+		4E07DA3C281BA39D0097240E /* ReadingListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E07DA3A281BA39D0097240E /* ReadingListCollectionViewCell.xib */; };
+		4E07DA3E281BC93F0097240E /* FinishedCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E07DA3D281BC93F0097240E /* FinishedCollectionViewController.swift */; };
+		4E07DA40281BC97D0097240E /* FinishedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E07DA3F281BC97D0097240E /* FinishedCollectionViewCell.swift */; };
 		4E63ED35281964DC005C5754 /* tapBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E63ED34281964DC005C5754 /* tapBar.storyboard */; };
+		4EB24BD128199744009A43A9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB24BD028199744009A43A9 /* TableViewController.swift */; };
+		4ECEC600281A9761007FAA87 /* InProgressCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEC5FF281A9761007FAA87 /* InProgressCollectionViewCell.swift */; };
+		4ECEC602281A9829007FAA87 /* InProgressCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEC601281A9829007FAA87 /* InProgressCollectionViewController.swift */; };
+		4ECEC604281AE4B3007FAA87 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEC603281AE4B3007FAA87 /* Book.swift */; };
 		4EF9C6682819143D00BEF2B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF9C6672819143D00BEF2B5 /* AppDelegate.swift */; };
 		4EF9C66A2819143D00BEF2B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF9C6692819143D00BEF2B5 /* SceneDelegate.swift */; };
 		4EF9C66C2819143D00BEF2B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF9C66B2819143D00BEF2B5 /* ViewController.swift */; };
@@ -37,7 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E07DA39281BA39D0097240E /* ReadingListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingListCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E07DA3A281BA39D0097240E /* ReadingListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReadingListCollectionViewCell.xib; sourceTree = "<group>"; };
+		4E07DA3D281BC93F0097240E /* FinishedCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedCollectionViewController.swift; sourceTree = "<group>"; };
+		4E07DA3F281BC97D0097240E /* FinishedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedCollectionViewCell.swift; sourceTree = "<group>"; };
 		4E63ED34281964DC005C5754 /* tapBar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = tapBar.storyboard; sourceTree = "<group>"; };
+		4EB24BD028199744009A43A9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../TableViewController.swift; sourceTree = "<group>"; };
+		4ECEC5FF281A9761007FAA87 /* InProgressCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InProgressCollectionViewCell.swift; sourceTree = "<group>"; };
+		4ECEC601281A9829007FAA87 /* InProgressCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InProgressCollectionViewController.swift; sourceTree = "<group>"; };
+		4ECEC603281AE4B3007FAA87 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		4EF9C6642819143D00BEF2B5 /* Bookworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EF9C6672819143D00BEF2B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EF9C6692819143D00BEF2B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,9 +118,17 @@
 			isa = PBXGroup;
 			children = (
 				4EF9C6672819143D00BEF2B5 /* AppDelegate.swift */,
+				4EB24BD028199744009A43A9 /* TableViewController.swift */,
 				4EF9C6692819143D00BEF2B5 /* SceneDelegate.swift */,
 				4EF9C66B2819143D00BEF2B5 /* ViewController.swift */,
 				4EF9C66D2819143D00BEF2B5 /* Main.storyboard */,
+				4E07DA3F281BC97D0097240E /* FinishedCollectionViewCell.swift */,
+				4E07DA3D281BC93F0097240E /* FinishedCollectionViewController.swift */,
+				4E07DA39281BA39D0097240E /* ReadingListCollectionViewCell.swift */,
+				4E07DA3A281BA39D0097240E /* ReadingListCollectionViewCell.xib */,
+				4ECEC601281A9829007FAA87 /* InProgressCollectionViewController.swift */,
+				4ECEC603281AE4B3007FAA87 /* Book.swift */,
+				4ECEC5FF281A9761007FAA87 /* InProgressCollectionViewCell.swift */,
 				4EF9C6702819143F00BEF2B5 /* Assets.xcassets */,
 				4EF9C6722819143F00BEF2B5 /* LaunchScreen.storyboard */,
 				4EF9C6752819143F00BEF2B5 /* Info.plist */,
@@ -235,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EF9C6742819143F00BEF2B5 /* LaunchScreen.storyboard in Resources */,
+				4E07DA3C281BA39D0097240E /* ReadingListCollectionViewCell.xib in Resources */,
 				4EF9C6712819143F00BEF2B5 /* Assets.xcassets in Resources */,
 				4E63ED35281964DC005C5754 /* tapBar.storyboard in Resources */,
 				4EF9C66F2819143D00BEF2B5 /* Main.storyboard in Resources */,
@@ -263,8 +288,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EF9C66C2819143D00BEF2B5 /* ViewController.swift in Sources */,
+				4E07DA3E281BC93F0097240E /* FinishedCollectionViewController.swift in Sources */,
+				4E07DA40281BC97D0097240E /* FinishedCollectionViewCell.swift in Sources */,
+				4ECEC600281A9761007FAA87 /* InProgressCollectionViewCell.swift in Sources */,
+				4ECEC604281AE4B3007FAA87 /* Book.swift in Sources */,
+				4E07DA3B281BA39D0097240E /* ReadingListCollectionViewCell.swift in Sources */,
+				4ECEC602281A9829007FAA87 /* InProgressCollectionViewController.swift in Sources */,
 				4EF9C6682819143D00BEF2B5 /* AppDelegate.swift in Sources */,
 				4EF9C66A2819143D00BEF2B5 /* SceneDelegate.swift in Sources */,
+				4EB24BD128199744009A43A9 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
